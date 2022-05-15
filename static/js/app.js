@@ -14,7 +14,7 @@ function buildTable(data) {
         let row = tbody.append("tr");
         Object.values(dataRow).forEach((val) => {
             // Create table cell in table row
-            let cell = row.appent("td");
+            let cell = row.append("td");
             // Add data values to each cell in row
             cell.text(val);
         });
