@@ -35,7 +35,7 @@ function handleClick() {
 }
 
 // Function call for when filter-btn id is "clicked" on html page
-d3.selectAll("#filter-bt").on("Click", handleClick);
+d3.selectAll("#filter-btn").on("Click", handleClick);
 
 // Buid table when page loads
 buildTable(tableData);
